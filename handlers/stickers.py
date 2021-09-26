@@ -2,7 +2,7 @@ import os
 
 from aiogram import types
 from misc import dp, bot
-from converter import convert
+from utils.converter import convert
 
 
 @dp.message_handler(content_types=types.ContentTypes.STICKER)
